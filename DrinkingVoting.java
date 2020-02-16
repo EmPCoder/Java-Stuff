@@ -14,14 +14,15 @@ public class DrinkingVoting {
 			System.out.println("You cannot vote or drink");
 		}
 
-		if (age >= 18 && age <= 21) {
+		else if (age >= 18 && age <= 21) {
 			System.out.println("Congrats you can vote!, however you cannot drink");
 		}
 		
-		if (age >18 && age >= 21) {
+		else {
 			System.out.println("You can vote and Drink!");
 		}
 
 	}
 
 }
+
